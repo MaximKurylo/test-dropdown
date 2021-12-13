@@ -41,7 +41,7 @@ const Category = () => {
                 {isOpen ? (
                     <div style={{
                         marginTop: '15px',
-                        lineHeight: '1.5'
+                        lineHeight: '1.7'
                     }}>
                         {options.map((option) => {
                             const checked = isCheckedCheckbox(option)
@@ -54,7 +54,7 @@ const Category = () => {
                                         color: "white"
                                     }}
                                 >
-                                    <input type="checkbox" id="option" name={option} checked={checked}/>
+                                    <input type="checkbox" id="option" className='c3' name={option} checked={checked}/>
                                     {option}
                                 </div>
                             );

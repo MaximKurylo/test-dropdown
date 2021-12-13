@@ -4,7 +4,7 @@
   background-color: #252424;
   justify-content: space-evenly;
   height: 500px;
-  font-family: Montserrat;
+
 
   .category-box {
     cursor: pointer;
@@ -15,6 +15,7 @@
     width: 269px;
     border-top: 1px solid black;
     text-align: center;
+    font-family: sans-serif;
   }
 
   .size-box {
@@ -25,12 +26,14 @@
     width: 269px;
     border-top: 2px solid #1c1b1b;
     text-align: center;
+    font-family: sans-serif;
   }
 }
 
 
 h1 {
   color: #AAA9AE;
+  font-family: 'Montserrat', sans-serif;
 }
 
 span {
@@ -73,7 +76,7 @@ input {
   content: "";
   display: inline-block;
   height: 0.45em;
-  right: 8.5em;
+  right: 8.9em;
   position: relative;
   top: 6px;
   transform: rotate(-45deg);
@@ -103,6 +106,15 @@ input {
 .chevrons.bottom:before {
   top: 0;
   transform: rotate(135deg);
+}
+
+.c3 {
+  filter: hue-rotate(60deg)
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+  margin: 10px;
 }
 
 

@@ -6,6 +6,7 @@ import Size from "./component/Atoms/Size";
 function App() {
     return (
         <div className='wrapper' >
+
             <Category/>
             <Size/>
         </div>
